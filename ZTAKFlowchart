@@ -1,0 +1,32 @@
+flowchart TD;
+  subgraph Start Here
+        S[Click each box below to be directed to its content]-->|Familiarize yourself<br/>with the method| A;
+        A[Zero Trust Enablement<br/>Learn what ZT is, who the players are in this market and how to start a conversation.]-->|Resources at<br/>your disposal| B[Zero Trust Landing Page<br/>What We Do / What We Sell];
+        B-->|Start the ZT PoV conversation<br/>with your clients| C[Zero Trust PoV Client Deck<br/>Put Zero Trust into action to fuel business growth without limits];
+        C-->|How to position and<br/>pitch the ZT workshop| D[Zero Trust Framing Workshop<br/>Helps clients understand, prioritize and implement Zero Trust];
+       D-->|How to register a<br/>ZT workshop in IBM Sales Cloud| E[Zero Trust Workshop Nomination Process<br/>Nominate/Qualify/Propose/Prepare/Deliver];
+  end
+  subgraph Next
+        F[Solution Demonstrations & Services]
+        G[Zero Trust Services<br/>Helps clients assess their current gaps against the IBM ZT governance model]
+        H[Security Live Demos Collection<br/>Impactful demos to show how IBM Security solutions can help clients solve their toughest security challenges];
+  end
+       E-->F
+       A-->|For clients who<br/>are ready to implement|F
+       F-->G & H
+  
+
+%% link to ZT Enablement on yourlearning
+click A "https://yourlearning.ibm.com/activity/PLAN-FE1EC0EE9671" "_blank"
+%% link to ZT Landing Page on seismic
+click B "https://ibm.seismic.com/Link/Content/DCrUUI-8P1gUCvd1UWDJqlmA" "_blank"
+%% link to ZT PoV Client Deck on seismic
+click C "https://ibm.seismic.com/Link/Content/DC6DPUWpP4Uk-crDYzB3EWNQ" "_blank"
+%% link to ZT Framing Workshop - this is in publisher so it is NOT available to BPs
+click D "https://w3.ibm.com/w3publisher/security-garage/zero-trust-framing-workshop" "_blank"
+%% link to ZT Workshop Nomination Process on ISC
+click E "https://ibm.seismic.com/Link/Content/DCT3_ik4gkWESZKhrNl1VHlA" "_blank"
+%% link to ZT Services on seismic
+click G "https://ibm.seismic.com/Link/Content/DCoSSyhe_iYUK9MIGTPn6ujg" "_blank"
+%% link to Tech Zone Security Demos
+click H "https://techzone.ibm.com/collection/security-live-demos-collection" "_blank"
